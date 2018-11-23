@@ -1,0 +1,6 @@
+- Rent vps and get started @ https://docs.komodoplatform.com/komodo/beginner-vps-linux-assetchain.html
+- Creating a blockchain @ https://docs.komodoplatform.com/komodo/create-Komodo-Assetchain.html
+- Faq for smart addresses @ https://docs.komodoplatform.com/komodo/Smartaddress-FAQ.html
+- Jumblr @ https://docs.komodoplatform.com/komodo/using-JUMBLR.html
+- dpow confirmations @ https://docs.komodoplatform.com/komodo/dPOW-conf.html
+- Nn setup @ https://docs.komodoplatform.com/notarynode/setup-Komodo-Notary-Node.html

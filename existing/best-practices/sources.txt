@@ -1,0 +1,3 @@
+https://docs.komodoplatform.com/_sources/komodo/security-setup-Komodo-Node.rst.txt
+https://docs.komodoplatform.com/_sources/komodo/note-exchanges.rst.txt
+https://docs.komodoplatform.com/_sources/barterDEX/setup-FR-full-relay-node-barterDEX.rst.txt

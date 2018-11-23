@@ -1,0 +1,5 @@
+https://docs.komodoplatform.com/_sources/general/compile-marketmaker-binary-with-static-nanomsg-in-Linux.rst.txt
+https://docs.komodoplatform.com/_sources/general/compile-marketmaker-binary-with-static-nanomsg-in-MacOS.rst.txt
+https://docs.komodoplatform.com/_sources/komodo/install-Komodo-manually.rst.txt#
+https://docs.komodoplatform.com/_sources/testing/debug-Komodo.rst.txt
+https://docs.komodoplatform.com/_sources/barterDEX/install-barterDEX-CLI.rst.txt

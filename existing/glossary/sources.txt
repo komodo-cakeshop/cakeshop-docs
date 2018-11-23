@@ -1,0 +1,4 @@
+https://docs.komodoplatform.com/_sources/komodo/assetchain-params.rst.txt
+https://docs.komodoplatform.com/_sources/komodo/Smartaddress-FAQ.rst.txt
+https://docs.komodoplatform.com/_sources/cc/activate-cc-independent-chain.rst.txt
+https://docs.komodoplatform.com/_sources/cc/faq.rst.txt

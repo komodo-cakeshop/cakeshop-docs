@@ -1,0 +1,2 @@
+https://docs.komodoplatform.com/_sources/general/list-all-KomodoPlatform-Project-links.rst.txt
+https://docs.komodoplatform.com/_sources/coins/info.rst.txt

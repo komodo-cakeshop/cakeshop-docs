@@ -1,0 +1,3 @@
+https://docs.komodoplatform.com/_sources/home-barterDEX.rst.txt
+https://docs.komodoplatform.com/_sources/barterDEX/get-listed-barterDEX.rst.txt
+https://docs.komodoplatform.com/_sources/barterDEX/setup-electrumX-server.rst.txt

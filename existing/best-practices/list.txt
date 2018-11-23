@@ -1,0 +1,3 @@
+- Ssh @ https://docs.komodoplatform.com/komodo/security-setup-Komodo-Node.html
+- Exchanges @ https://docs.komodoplatform.com/komodo/note-exchanges.html
+- Setup FR node for barterdex @ https://docs.komodoplatform.com/barterDEX/setup-FR-full-relay-node-barterDEX.html

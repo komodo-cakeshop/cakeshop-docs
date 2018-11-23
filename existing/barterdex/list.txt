@@ -1,0 +1,3 @@
+- Documentation base @ https://docs.komodoplatform.com/home-barterDEX.html
+- List your coin @ https://docs.komodoplatform.com/barterDEX/get-listed-barterDEX.html
+- ElectrumX @ https://docs.komodoplatform.com/barterDEX/setup-electrumX-server.html

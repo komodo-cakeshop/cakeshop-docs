@@ -1,0 +1,13 @@
+https://docs.komodoplatform.com/_sources/cc/contracts/tokens/introduction.rst.txt
+https://docs.komodoplatform.com/_sources/cc/contracts/tokens/rpc-index.rst.txt
+https://docs.komodoplatform.com/_sources/cc/contracts/faucet/introduction.rst.txt
+https://docs.komodoplatform.com/_sources/cc/contracts/faucet/rpc-index.rst.txt
+https://docs.komodoplatform.com/_sources/cc/contracts/rewards/introduction.rst.txt
+https://docs.komodoplatform.com/_sources/cc/contracts/rewards/rpc-index.rst.txt
+https://docs.komodoplatform.com/_sources/cc/contracts/dice/introduction.rst.txt
+https://docs.komodoplatform.com/_sources/cc/contracts/dice/rpc-index.rst.txt
+https://docs.komodoplatform.com/_sources/cc/contracts/dice/scenarios/tutorial.rst.txt
+https://docs.komodoplatform.com/_sources/cc/contracts/oracles/introduction.rst.txt
+https://docs.komodoplatform.com/_sources/cc/contracts/oracles/rpc-index.rst.txt
+https://docs.komodoplatform.com/_sources/cc/contracts/gateways/scenarios/tutorial.rst.txt
+https://docs.komodoplatform.com/_sources/cc/test-use-write-integrate-cc.rst.txt

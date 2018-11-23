@@ -1,0 +1,4 @@
+- ac_params @ https://docs.komodoplatform.com/komodo/assetchain-params.html
+- Faq smart addresses @ https://docs.komodoplatform.com/komodo/Smartaddress-FAQ.html
+- Cli params activating cc @ https://docs.komodoplatform.com/cc/activate-cc-independent-chain.html
+- Cc faq @ https://docs.komodoplatform.com/cc/faq.html
