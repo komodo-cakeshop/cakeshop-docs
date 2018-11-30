@@ -36,9 +36,9 @@ module.exports = {
 	collapsable: true,
 	children: [
 	  [ '/blockchain-starter-kit/introduction.html', 'Blockchain Starter Kit Introduction' ],
-	  [ '/blockchain-starter-kit/checklist-new-coins.rst.txt.html', 'Existing New Coins Checklist' ],
+	  [ '/blockchain-starter-kit/checklist-new-coins.rst.txt.html', ' New Coins Checklist' ],
 	  [ '/blockchain-starter-kit/checklist-new-coins.html', 'Converted New Coins Checklist' ],
-	  [ '/blockchain-starter-kit/setup-electrumX-server.rst.txt.html', 'Existing ElectrumX Setup' ],
+	  [ '/blockchain-starter-kit/setup-electrumX-server.rst.txt.html', ' ElectrumX Setup' ],
 	  [ '/blockchain-starter-kit/ac-parameters.html', 'Blockchain Parameters' ],
 	  [ '/blockchain-starter-kit/configuration.html', 'Blockchain Configuration' ],
 	  [ '/blockchain-starter-kit/deployment.html', 'Blockchain Deployment' ],
@@ -50,7 +50,7 @@ module.exports = {
 	]
       },
       {
-	title: 'Custom Consensus Crypto Conditions',
+	title: 'Tutorial: Crypto Conditions',
 	collapsable: true,
 	children: [
 	  [ '/custom-consensus/introduction.html', 'CC Consensus Introduction'],
@@ -59,7 +59,7 @@ module.exports = {
 	]
       },
       {
-        title: 'Existing BarterDEX',
+        title: ' BarterDEX',
         collapsable: true,
         children: [
          ['/existing/barterdex/home-barterDEX.rst.txt.html', 'BarterDEX Introduction'],
@@ -67,7 +67,7 @@ module.exports = {
          ['/existing/barterdex/setup-electrumX-server.rst.txt.html', 'Setup ElectrumX Server']
         ]
       },{
-        title: 'Existing Building Software',
+        title: ' Building Software',
         collapsable: true,
         children: [
          ['/existing/building-software/compile-marketmaker-binary-with-static-nanomsg-in-Linux.rst.txt.html', 'Compile Marketmaker Linux'],
@@ -77,7 +77,7 @@ module.exports = {
          ['/existing/building-software/install-Komodo-manually.rst.txt.html', 'Compile Komodo']
         ]
       },{
-        title: 'Existing Best Practices',
+        title: ' Best Practices',
         collapsable: true,
         children: [
          ['/existing/best-practices/note-exchanges.rst.txt.html', 'Crypto Exchange Note'],
@@ -85,7 +85,7 @@ module.exports = {
          ['/existing/best-practices/setup-FR-full-relay-node-barterDEX.rst.txt.html', 'Setup Full Relay (FR) Node']
         ]
       },{
-        title: 'Existing CLI Operations',
+        title: ' CLI Operations',
         collapsable: true,
         children: [
          ['/existing/cli-operations/activate-cc-independent-chain.rst.txt.html', 'Activatation Height Crypto Conditions'],
@@ -96,7 +96,7 @@ module.exports = {
          ['/existing/cli-operations/using-Key-Value.rst.txt.html', 'Using KV Store']
         ]
       },{
-        title: 'Existing Crypto Conditions',
+        title: ' Crypto Conditions',
         collapsable: true,
         children: [
          ['/existing/cryptoconditions/introduction.rst.txt.html', 'CC Intro'],
@@ -104,7 +104,7 @@ module.exports = {
          ['/existing/cryptoconditions/tutorial.rst.txt.html', 'Tutorial']
         ]
       },{
-        title: 'Existing Dev-HOWTO',
+        title: ' Dev-HOWTO',
         collapsable: true,
         children: [
          ['/existing/dev-howtos/activate-cc-independent-chain.rst.txt.html', 'Update name1'],
@@ -118,7 +118,7 @@ module.exports = {
          ['/existing/dev-howtos/using-Key-Value.rst.txt.html', 'Update name9']
         ]
       },{
-        title: 'Existing Glossary',
+        title: ' Glossary',
         collapsable: true,
         children: [
          ['/existing/glossary/assetchain-params.rst.txt.html', 'Assetchain Params'],
@@ -127,7 +127,7 @@ module.exports = {
          ['/existing/glossary/faq.rst.txt.html', 'FAQ']
         ]
       },{
-        title: 'Existing Guides',
+        title: ' Guides',
         collapsable: true,
         children: [
          ['/existing/guides/beginner-vps-linux-assetchain.rst.txt.html', 'VPS Getting Started'],
@@ -138,7 +138,7 @@ module.exports = {
          ['/existing/guides/using-JUMBLR.rst.txt.html', 'Using JUMBLR'],
         ]
       },{
-        title: 'Existing Index',
+        title: ' Index',
         collapsable: true,
         children: [
          ['/existing/index/list-all-KomodoPlatform-Project-links.rst.txt.html', 'Project Resources & Repositories'],
