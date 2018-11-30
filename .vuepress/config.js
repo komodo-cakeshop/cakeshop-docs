@@ -1,5 +1,5 @@
 module.exports = {
-  host: '0.0.0.0',
+  host: '176.9.138.124',
   title: 'Cakeshop Docs',
   description: 'Just playing around',
   themeConfig: {
@@ -36,7 +36,8 @@ module.exports = {
 	collapsable: true,
 	children: [
 	  [ '/blockchain-starter-kit/introduction.html', 'Blockchain Starter Kit Introduction' ],
-	  [ '/blockchain-starter-kit/checklist-new-coins.rst.txt.html', 'Existing New Coibs Checklist' ],
+	  [ '/blockchain-starter-kit/checklist-new-coins.rst.txt.html', 'Existing New Coins Checklist' ],
+	  [ '/blockchain-starter-kit/checklist-new-coins.html', 'Converted New Coins Checklist' ],
 	  [ '/blockchain-starter-kit/setup-electrumX-server.rst.txt.html', 'Existing ElectrumX Setup' ],
 	  [ '/blockchain-starter-kit/ac-parameters.html', 'Blockchain Parameters' ],
 	  [ '/blockchain-starter-kit/configuration.html', 'Blockchain Configuration' ],
@@ -145,6 +146,7 @@ module.exports = {
         ]
       },
     ]
-  }
+  },
+  plugins: [ 'vue-material' ]
 }
 
