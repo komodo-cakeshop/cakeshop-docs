@@ -31,7 +31,8 @@ let ac_name_arg = ''
 let ac_supply_arg = ''
 let ac_reward_arg = ''
 let ac_cc_arg = ''
-let node1_arg = ' ***NEED node1*** '
+let node1_orig = ' ***NEED node1*** '
+let node1_arg = node1_orig
 let LINK_ACPARAM_NAME = '/existing/glossary/assetchain-params.rst.txt.html#ac-name'
 let LINK_ACPARAM_SUPPLY= '/existing/glossary/assetchain-params.rst.txt.html#ac-supply'
 let LINK_ACPARAM_REWARD= '/existing/glossary/assetchain-params.rst.txt.html#ac-reward'
@@ -75,10 +76,15 @@ export default {
         }
         if( this.node1.length > 0 ){
           node1_arg= ' addnode=' + this.node1
+        } else {
+          node1_arg = node1_orig
         }
         if( this.ac_name.length > 0 && this.ac_supply > 0  ){
           this.komododctl_1 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + ' &'
           this.komododctl_2 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + node1_arg + ' &'
+        } else {
+          this.komododctl_1 = 'komodod &'
+          this.komododctl_2 = 'komodod &'
         }
     },
     ac_name: function() {
@@ -184,12 +190,13 @@ export default {
   },
   methods: {
     clearvalues: function() {
-      this.node1 = ''
+      this.node1 = ' *** NEED node 1 ***'
       this.node2 = ''
       this.ac_name = ''
       this.ac_supply = ''
       this.ac_reward = ''
       this.ac_cc = ''
+      this.node1_arg = this.node1_orig
     }
   }
 }
