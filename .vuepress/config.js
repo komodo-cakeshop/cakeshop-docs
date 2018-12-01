@@ -1,5 +1,5 @@
 module.exports = {
-  host: '176.9.138.124',
+  host: '127.0.0.1',
   title: 'Cakeshop Docs',
   description: 'Just playing around',
   themeConfig: {
@@ -36,6 +36,7 @@ module.exports = {
 	collapsable: true,
 	children: [
 	  [ '/blockchain-starter-kit/introduction.html', 'Blockchain Starter Kit Introduction' ],
+	  [ '/blockchain-starter-kit/wizard.html', 'Starter Kit Wizard' ],
 	  [ '/blockchain-starter-kit/checklist-new-coins.rst.txt.html', ' New Coins Checklist' ],
 	  [ '/blockchain-starter-kit/checklist-new-coins.html', 'Converted New Coins Checklist' ],
 	  [ '/blockchain-starter-kit/setup-electrumX-server.rst.txt.html', ' ElectrumX Setup' ],
