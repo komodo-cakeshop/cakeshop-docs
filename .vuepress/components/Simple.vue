@@ -14,6 +14,7 @@
       <br />
       <input type=textfield name=ac_cc v-model='ac_cc' placeholder='Crypto Conditions e.g. 5'> <a :href="link_info_acparam_cc">info</a>
       <br />
+      <input type=button name=clear @click='clearvalues' value='clear' />
     </div>
     <div>
       <pre>
@@ -30,7 +31,7 @@ let ac_name_arg = ''
 let ac_supply_arg = ''
 let ac_reward_arg = ''
 let ac_cc_arg = ''
-let node1_arg = ''
+let node1_arg = ' ***NEED node1*** '
 let LINK_ACPARAM_NAME = '/existing/glossary/assetchain-params.rst.txt.html#ac-name'
 let LINK_ACPARAM_SUPPLY= '/existing/glossary/assetchain-params.rst.txt.html#ac-supply'
 let LINK_ACPARAM_REWARD= '/existing/glossary/assetchain-params.rst.txt.html#ac-reward'
@@ -55,6 +56,31 @@ export default {
     }
   },
   watch: {
+    node1: function() {
+        if( this.ac_name.length != 0 ){
+          ac_name_arg = ' -ac_name=' + this.ac_name
+        }
+        if( this.ac_supply.length != 0 ){
+          ac_supply_arg = ' -ac_supply=' + this.ac_supply
+        }
+        if( this.ac_reward.length != 0 ){
+          ac_reward_arg = ' -ac_reward=' + this.ac_reward
+        }
+        if( this.ac_cc.length != 0 ){
+          ac_cc_arg = ' -ac_cc=' + this.ac_cc
+        }
+        node1_arg = ' -addnode=' + this.node1
+        if( this.node1.length == 0 ){
+          node1_arg= ''
+        }
+        if( this.node1.length > 0 ){
+          node1_arg= ' addnode=' + this.node1
+        }
+        if( this.ac_name.length > 0 && this.ac_supply > 0  ){
+          this.komododctl_1 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + ' &'
+          this.komododctl_2 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + node1_arg + ' &'
+        }
+    },
     ac_name: function() {
         if( this.ac_supply.length != 0 ){
           ac_supply_arg = ' -ac_supply=' + this.ac_supply
@@ -72,8 +98,13 @@ export default {
         if( this.node1.length > 0 ){
           node1_arg= ' addnode=' + this.node1
         }
-        this.komododctl_1 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + ' &'
-        this.komododctl_2 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + node1_arg + ' &'
+        if( this.ac_name.length > 0 && this.ac_supply > 0  ){
+          this.komododctl_1 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + ' &'
+          this.komododctl_2 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + node1_arg + ' &'
+        } else {
+          this.komododctl_1 = 'komodod &'
+          this.komododctl_2 = 'komodod &'
+        }
     },
     ac_supply: function() {
         if( this.ac_name.length != 0 ){
@@ -92,8 +123,13 @@ export default {
         if( this.node1.length > 0 ){
           node1_arg= ' addnode=' + this.node1
         }
-        this.komododctl_1 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + ' &'
-        this.komododctl_2 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + node1_arg + ' &'
+        if( this.ac_name.length > 0 && this.ac_supply > 0  ){
+          this.komododctl_1 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + ' &'
+          this.komododctl_2 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + node1_arg + ' &'
+        } else {
+          this.komododctl_1 = 'komodod &'
+          this.komododctl_2 = 'komodod &'
+        }
     },
     ac_reward: function() {
         if( this.ac_name.length != 0 ){
@@ -112,8 +148,13 @@ export default {
         if( this.node1.length > 0 ){
           node1_arg= ' addnode=' + this.node1
         }
-        this.komododctl_1 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + ' &'
-        this.komododctl_2 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + node1_arg + ' &'
+        if( this.ac_name.length > 0 && this.ac_supply > 0  ){
+          this.komododctl_1 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + ' &'
+          this.komododctl_2 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + node1_arg + ' &'
+        } else {
+          this.komododctl_1 = 'komodod &'
+          this.komododctl_2 = 'komodod &'
+        }
     },
     ac_cc: function() {
         if( this.ac_name.length != 0 ){
@@ -132,8 +173,23 @@ export default {
         if( this.node1.length > 0 ){
           node1_arg= ' addnode=' + this.node1
         }
-        this.komododctl_1 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + ' &'
-        this.komododctl_2 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + node1_arg + ' &'
+        if( this.ac_name.length > 0 && this.ac_supply > 0  ){
+          this.komododctl_1 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + ' &'
+          this.komododctl_2 = 'komodod' + ac_name_arg + ac_supply_arg + ac_reward_arg + ac_cc_arg + node1_arg + ' &'
+        } else {
+          this.komododctl_1 = 'komodod &'
+          this.komododctl_2 = 'komodod &'
+        }
+    }
+  },
+  methods: {
+    clearvalues: function() {
+      this.node1 = ''
+      this.node2 = ''
+      this.ac_name = ''
+      this.ac_supply = ''
+      this.ac_reward = ''
+      this.ac_cc = ''
     }
   }
 }
